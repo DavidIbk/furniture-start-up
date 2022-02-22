@@ -1,0 +1,35 @@
+body{
+font-family: Roboto;
+}
+
+/* NAVBAR */
+.navbar{
+  border-bottom: 1px solid;
+}
+
+.navbar-exterior{
+  padding: 0 20px;
+  margin: 0;
+}
+
+.navbar-interior{
+  padding: 0;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.navbar-item{
+  padding: 0 10rem;
+  font-weight: 300;
+}
+
+.navbar-nav{
+  padding-right: 16rem;
+}
+
+.SineMkt{
+  color: #FFBF00;
+}
