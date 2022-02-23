@@ -1,70 +1,141 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <!-- meta data and font family-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale-1"
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+  <!-- meta data and font family-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale-1" <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <!-- favicon -->
-    <link rel="icon" href="favicon (1).ico">
+  <!-- favicon -->
+  <link rel="icon" href="favicon (1).ico">
 
-    <!-- title of site-->
-    <title>Furniture</title>
+  <!-- title of site-->
+  <title>Furniture</title>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/767abd1c11.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/767abd1c11.js" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="styles.css">
-  </head>
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
 
 
-  <body>
+<body>
 
-<header id="header">
-  <div class="container-fluid header-top">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light" styles="background-color: #fff;">
-  <div class="container-fluid navbar-interior">
-    <a class="navbar-brand" href="#">Sine<span class="SineMkt">Mkt</span>.</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">New Arrival</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-      </form>
+  <header id="header" style="padding: 5%;">
+    <div class="container-fluid header-top">
+      <nav class="navbar navbar-expand-lg navbar-light" styles="background-color: #fff;">
+        <div class="container-fluid navbar-interior">
+          <a class="navbar-brand" href="#">Sine<span class="SineMkt">Mkt</span>.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New Arrival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input type="text" placeholder="&#xF002;  Search" style="font-family: Arial, fontawesome" />
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6" style="color:#808080; margin-bottom: 3rem; padding-top: 6%; padding-left: 4%;">
+          <div id="carouselExampleSlidesOnly" class="carousel" data-bs-ride="carousel" data-bs-interval="6000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h5>Great design collection</h5>
+                <h1>Mapple Wood Accent Chair</h1>
+                <p>Get premium quality Mapple Wood Accent Chair at an affordable price today!</p>
+                <p> ₦ 70,000 <span class="header-price" style="text-decoration: line-through;"> ₦ 100,000</span> </p>
+                <button type="button" class="btn btn-lg" style="background-color:#FFBF00; color: #fff;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                <button type="button" class="btn btn-outline-light" style="color:#FFBF00;">More info</button>
+
+              </div>
+              <div class="carousel-item">
+                <h5>Great design collection</h5>
+                <h1>Valvet Accent Arm Chair</h1>
+                <p>Get the best imported Valvet Accent Arm Chair from Germany!</p>
+                <p> ₦ 100,000 <span class="header-price" style="text-decoration: line-through;"> ₦ 140,000</span> </p>
+                <button type="button" class="btn btn-lg" style="background-color:#FFBF00; color: #fff;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                <button type="button" class="btn btn-outline-light" style="color:#FFBF00;">More info</button>
+              </div>
+              <div class="carousel-item">
+                <h5>Great design collection</h5>
+                <h1>Cloth Covered Accent Chair</h1>
+                <p>Get quality Cloth Covered Accent Chair made with state-of-the-art fabric!</p>
+                <p> ₦ 75,000 <span class="header-price" style="text-decoration: line-through;"> ₦ 110,000</span> </p>
+                <button type="button" class="btn btn-lg" style="background-color:#FFBF00; color: #fff;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+                <button type="button" class="btn btn-outline-light" style="color:#FFBF00;">More info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div id="carouselExampleSlidesOnly" class="carousel" data-bs-ride="carousel" data-bs-interval="6000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images2.imgbox.com/6f/bd/MJy8RfWB_o.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images2.imgbox.com/fe/20/BQzidmps_o.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images2.imgbox.com/ad/48/J7WN0MHw_o.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
+    </div>
+<div class="row" style="color:#808080; margin: 100px 0;">
+  <div class="col-lg-3" style=" padding: 2% 2%; text-align: center;">
+    <img style="margin: 20px;" src="https://images2.imgbox.com/56/21/asFadrhV_o.png" alt="">
+    <h5><a href="" style="margin: 20px; text-decoration: none; color:#FFBF00;">Arm Chair</a></h5>
+    <p>Top quality sofas to decorate your living room and give you that elegant look</p>
   </div>
-</nav>
-
-
+  <div class="col-lg-6" style="padding: 5% 2%; margin-bottom: 50px;">
+    <img style="float: left; margin-right: 8%;" src="https://images2.imgbox.com/54/fe/CpQx6j07_o.png" alt="">
+      <h5><a href="" style="text-decoration: none; color:#FFBF00;">Latest Designed Stool and Chair</a></h5>
+      <p style="margin: 5% 0">Best grade stools and chairs assured to give your home a regal appearance</p>
+      <h6>Sales start from <span style="color: #FFBF00;"> ₦ 40,000</span></h6>
+      <button type="button" class="btn btn-outline-dark" style="color:#808080; margin-top: 2%;">Discover more</button>
   </div>
+  <div class="col-lg-3" style=" padding: 2% 2%; text-align: center;">
+    <img style="margin-bottom: 5%;" src="https://images2.imgbox.com/a7/f8/AwvpW4rv_o.png" alt="">
+    <h5><a href="" style="margin: 10% auto 10%; text-decoration: none; color:#FFBF00;">Hanging Lamp</a></h5>
+    <p>Light up your rooms with beautiful lights like never before</p>
+  </div>
+</div>
 
-</header>
-  </body>
+  </header>
+</body>
+
 </html>
