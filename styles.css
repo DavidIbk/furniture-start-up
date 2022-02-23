@@ -2,9 +2,11 @@ body{
 font-family: Roboto;
 }
 
+
 /* NAVBAR */
 .navbar{
   border-bottom: 1px solid;
+  margin-bottom: 2rem;
 }
 
 .navbar-exterior{
@@ -26,10 +28,27 @@ font-family: Roboto;
   font-weight: 300;
 }
 
+
 .navbar-nav{
-  padding-right: 16rem;
+  padding-right: 18rem;
 }
 
 .SineMkt{
   color: #FFBF00;
+}
+
+/* CAROUSEL */
+
+#carouselExampleSlidesOnly{
+  height: 80%;
+  width: 80%;
+}
+
+/* HEADER DIV (NON-PICTURE) */
+.header-price{
+  margin-left: 10px;
+}
+
+.fa-hammer{
+  margin: 3rem 50%;
 }
