@@ -2,7 +2,9 @@ body{
 font-family: Roboto;
 }
 
-
+h4{
+  line-height: 3;
+}
 /* NAVBAR */
 .navbar{
   border-bottom: 1px solid;
@@ -49,6 +51,77 @@ font-family: Roboto;
   margin-left: 10px;
 }
 
-.fa-hammer{
-  margin: 3rem 50%;
+/* MIDDLE ELLIPSIS */
+.fa-ellipsis{
+  color: #FFBF00;
+}
+
+.ellipsis1{
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.ellipsis2{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.bedroom-img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.z-index{
+  width: auto;
+  position: relative;
+  z-index: 1;
+  bottom: 300px;
+  text-align: center;
+}
+
+.clients{
+  padding: 0;
+  margin: 0;
+  color: #a8a8a6;
+  text-align: center;
+}
+
+.row{
+  padding: 0;
+  margin: 0;
+}
+
+.clients-img{
+  text-align: center;
+  padding: 5%;
+}
+
+.clients-text{
+  margin-bottom: 3%;
+}
+
+.contact{
+  padding: 0;
+  margin: 0;
+}
+
+.contact-text{
+  padding: 5%;
+  color: #808080;
+  text-align: center;
+}
+
+.footer{
+  padding: 5%;
+  text-align: center;
+  color: #808080;
+}
+
+.footer-font-awesome{
+  color: #808080;
+  margin: 10px;
+}
+.footer-font-awesome:hover{
+  color: #FFBF00;
 }
