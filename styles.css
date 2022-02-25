@@ -122,6 +122,16 @@ h4{
   color: #808080;
   margin: 10px;
 }
+
 .footer-font-awesome:hover{
+  color: #FFBF00;
+}
+
+.contact-link{
+  text-decoration: none;
+  color: #808080;
+}
+
+.contact-link:hover{
   color: #FFBF00;
 }
