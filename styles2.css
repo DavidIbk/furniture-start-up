@@ -46,6 +46,40 @@ font-family: Roboto;
   color: #808080;
   margin: 10px;
 }
+
 .footer-font-awesome:hover{
   color: #FFBF00;
+}
+
+/* PAGE CONTENT */
+h2{
+  line-height: 3;
+}
+
+h5{
+  line-height: 2;
+}
+
+.page-content{
+  color: #808080;
+  margin: 0;
+  padding: 0;
+}
+
+.h2-heading{
+  text-align: center;
+}
+
+.col-lg-3{
+  text-align: center;
+  padding: 2%;
+}
+
+.div-img-top-mother{
+  padding: 20%;
+}
+
+.row{
+  margin: 3% 0 10%;
+  padding: 5%;
 }
